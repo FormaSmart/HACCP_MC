@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/animated.css">
     <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/cookie.css">
 
 </head>
 
@@ -629,6 +630,38 @@
   </footer>
   <!----- Section Footer End ----->
 
+
+  <!----- Cookies Start ----->
+  <script src="https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@3.1.7/src/glowCookies.min.js"></script>
+  <script>
+    glowCookies.start('fr', {
+      style: 2,
+      analytics: 'G-FH87DE17XF',
+      facebookPixel: '990955817632355',
+      hideAfterClick: true,
+      border: 'none',
+      position: 'right',
+      policyLink: 'https://google.fr',
+      customScript: [{ type: 'custom', position: 'body', content: `console.log('my custom js');` }],
+      bannerDescription: 'Nous utilisons des cookies pour analyser vos préférences en ligne &amp; personnaliser le contenu de l\'annonce.\n' +
+              'Vous acceptez notre ',
+      bannerLinkText: 'Cookie.',
+      bannerBackground: '#fffbfb',
+      bannerColor: '#000000',
+      bannerHeading: '<h2>Ce site web utilise des cookies</h2>',
+      acceptBtnText: 'Accepter',
+      acceptBtnColor: 'black',
+      acceptBtnBackground: '#55DFB8',
+      rejectBtnText: 'Refuser',
+      rejectBtnBackground: ' #4A85BE',
+      rejectBtnColor: 'black',
+      manageColor: 'white',
+      manageBackground: 'blue',
+      manageText: 'cookies text'
+    });
+  </script>
+  <!----- Cookies End ----->
+
   <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -637,6 +670,7 @@
   <script src="assets/js/animation.js"></script>
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script src="assets/js/glowCookies.js"></script>
 
 
   </body>
